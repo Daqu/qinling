@@ -6,7 +6,7 @@
 
 - name: Set up Kubernetes repository
   apt_repository:
-    repo: 'deb http://mirrors.ustc.edu.cn/kubernetes/apt/ kubernetes-xenial main'
+    repo: 'deb http://mirrors.aliyun.com/kubernetes/apt/ kubernetes-xenial main'
     state: present
 
 - name: Install kube CLIs
